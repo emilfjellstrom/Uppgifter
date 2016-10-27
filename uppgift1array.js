@@ -1,12 +1,12 @@
-/*
+// Array with push
 var arr1 = [1,2,3];
 var arr2 = [4,5,6];
 var godarry = arr1.concat(arr2);
 document.write(godarry);
 godarry.push("7");
 document.write(godarry);
-*/
-/*
+
+// Array with function
 var monster = [
 	{name:"a", id:5},
 	{name:"b", id:7},
@@ -22,8 +22,8 @@ function comparator(a,b){
 monster.sort(comparator);
 document.write(monster);
 
-*/
-/*
+
+// Array with for loop
 	ary = [0,17,3,8,1,5];
 	var holder = -1;
 	var stop = 5;
@@ -42,28 +42,28 @@ document.write(monster);
   		}
   	}
 console.log(ary);
-*/
-/*
+
+// Functions multiplier
 function numberMultiplier(number){
 	return number * 2;
 }
 document.write(numberMultiplier(12));
-*/
-/*
+
+// Function parameter
 function foo(){
 	document.write("test") // läser ut test
 }
 foo("hej");
-*/
-/*
+
+// Function math
 var a = foo(3);
 document.write(a);
 
 function foo(i){
 	return i * i; // 3 * 3 = 9
 }
-*/
-/*
+
+// Function parameter counter
 var a = 5;
 
 function foo(a){
@@ -71,4 +71,3 @@ function foo(a){
 }
 a += 2;
 console.log(a); // a declareras alldrig å därför körs inte a++. svar 5+2=7
-*/
